@@ -1,0 +1,354 @@
+
+header{
+    background-image: url(../img/nav.jpg);
+    background-size: 100vw 100vh;
+   /* background-attachment: fixed;
+    position: -webkit-sticky;  
+    position: sticky;
+    z-index: 20;
+	padding: 5px 0;*/
+	top:0;
+}
+.baner{
+      background:  rgba(0,0,0,.5);
+      
+}
+.baner h5{
+    font-size: 3.5em !important;
+    
+}
+body{
+    background: #d3d3d3;
+    
+}
+h2{
+    font-family: 'Alice', serif;
+    color: #46b500;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+.imagen img{
+	width: 40%;
+	
+	text-shadow: 2px 2px 4px #000000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:4px;
+}
+.gris button{
+    background: orange;
+}
+.gris{
+	  background-image: url(../img/nav.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+	margin-top: 10px;
+}
+.navbar nav ul li a{
+	font-size: 3px !important;
+    
+}
+.listas a{
+	color: orange !important;
+   
+	font-size: 30px;
+    font-weight: 700;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 text-shadow: 10px 10px 4px #000000;
+}
+.listas a:hover{
+	background-color: orange;
+    color: aliceblue !important;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 5%
+}
+.no-padding{
+	padding-right: 0;
+	padding-left: 0;
+}
+.text-red{
+	color: #6c0000;
+}
+.parte{
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+.parte2{
+    background-image: url(../img/20.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed; 
+    padding: 50px;
+}
+.menu{
+    background: #fff;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+.info h1{
+        text-align: center;
+    padding: 10px 0;
+    color: #d9900a;
+    font-size: 4.5em;
+    font-family: 'Playball', cursive;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 1.2em;
+    color: #5c5c5c;
+}
+.info img{
+    box-shadow: 0 18px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: scale(1.0);
+	transform: scale(1.0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.info img:hover{
+   	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+.menu h1{
+    text-align: center;
+    padding: 10px 0;
+    color: orange;
+    font-size: 4.5em;
+    font-family: 'Playball', cursive;
+}
+.menu p{
+    width: 100%;
+}
+.menu p button{
+   font-size: 1.5em;
+   background: #b56900;
+   margin-right: 30px;
+   
+}
+.menu p button:hover{
+    background: orange;
+    
+}
+.target{
+    border: 2px dotted orange;
+     background-color:rgba(244, 244, 244, 0.5) !important;
+}
+.target img{
+    border: 3px solid #553700
+}
+.target p{
+    color: #f7f7f7;
+    font-weight: 500;
+}
+.margen{
+    padding: 0.4px !important;  
+   
+}
+.menu-title h4{
+    color: #fff;
+}
+.menu-price h4{
+    width: 20%;
+    color: #724a00;
+}
+.negro{
+    background: #0d0b0b;
+    margin-top: 25px;
+    
+    
+}
+.negro h2{
+    color: aliceblue
+}
+.negro button{
+    margin-bottom: 10px;
+    color: aliceblue;
+    border: 1px solid #fff !important
+    
+}
+.parte3{
+    background-image: url(../img/footer.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed; 
+    padding: 50px;
+}
+.menu1{
+    background: #fff;
+    border: 3px dotted orange;
+    padding: 50px;
+}
+.menu1 h1{
+   
+    color: #46b500;
+    font-size: 3.5em;
+    font-family: 'Playball', cursive;
+}
+.menu1 p{
+      font-size: 1.2em;
+    color: #5c5c5c;
+}
+.menu1 img{
+    width: 100% !important; 
+}
+.sombra{
+    box-shadow: 7px 7px 7px #aaaaaa;
+
+}
+.especial img{
+   border-right: 4px solid #46b500;
+    padding-right: 4px;
+    
+    
+}
+.card-title{
+    color: #424e4e;
+    
+}
+.card-text{
+    color: #007272 !important;
+    font-weight: 600;
+    
+}
+
+.galeria {
+	width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.galeria li {
+	margin: 5px;
+     box-shadow: 0 28px 28px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galeria img {
+	width: 250px;
+	height: 150px;
+    border: 2px solid #9f6700;
+    
+}
+
+/*Estilos del modal*/
+
+.modal {
+	display: none;
+}
+
+.modal:target {
+	
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal h3 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.ima {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ima a {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+#galeria h3{
+    text-align: center
+} 
+.ima a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.ima img {
+	width: 900px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+}
+
+.cerrar {
+	display: block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.conta p{
+    margin-top: -50px
+}
+.contac{
+     background-image: url(../img/22.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.contac h3{
+    color: aliceblue
+}
+.contac label{
+    color: #e28100;
+    font-weight: 600;
+    margin: 7px 0;
+    font-size: 1.2em;
+    
+}
+.contac p{
+    color: #8e99a2;
+    margin-top: 14px;
+}
+.contac button{
+    background: #cb7808;
+    margin-top: 14px;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.contac button:hover{
+    background: #792f01;
+    color: #fff;
+    border-radius: 10px;
+}
+footer{
+    background-image: url(../img/f.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
